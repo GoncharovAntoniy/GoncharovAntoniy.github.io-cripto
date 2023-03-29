@@ -1,0 +1,1 @@
+const smoothLinks=document.querySelectorAll('a[href^="#"]');for(let t of smoothLinks)t.addEventListener("click",(function(e){e.preventDefault();const o=t.getAttribute("href");document.querySelector(o).scrollIntoView({behavior:"smooth",block:"start"})}));
